@@ -1,0 +1,150 @@
+main {
+  margin: 30vh 0px 0px 0px;
+  display: grid;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+  position: absolute;
+  top: 0px;
+  max-width: 663px;
+}
+
+.chik {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 0px 93px 0px 60vw;
+}
+
+#chikID {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border-radius: 119px;
+  width: 25vw;
+}
+
+#chikID:hover {
+  box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.799),0 17px 50px 0 rgba(255, 255, 255, 0.731);
+}
+
+h1 {
+  font-family: 'Gotham Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 98%;
+
+  margin-top: 0;
+  /* margin-bottom: 436px; */
+
+  color: #FFFFFF;
+}
+
+h2 {
+  font-family: 'TT Travels';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120.47%;
+  white-space: pre-wrap;
+  margin-top: 0;
+  padding-top: 9px;
+
+  color: #FFFFFF;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 30px 0px 0px 0px;
+}
+
+.btn {
+  font-family: 'TT Travels';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120.47%;
+  text-decoration: none;
+
+  letter-spacing: -0.05em;
+
+  color: #000000;
+
+  text-shadow: -6px 4px 12px rgba(255, 255, 255, 0.81);
+}
+
+#btn_buy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 164px;
+  height: 58px;
+  left: 0px;
+  top: 0px;
+
+  background: radial-gradient(89.6% 101.72% at 48.48% 50%, #EBCD2F 0%, #E9A551 100%);
+  border-radius: 34px;
+}
+
+#btn_more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 164px;
+  height: 58px;
+  left: 5vw;
+  top: 0px;
+
+  color: #FFFFFF;
+
+  border: 1px solid #DFDBDB;
+  filter: drop-shadow(0px 0px 21px #FFFFFF);
+  border-radius: 34px;
+  text-shadow: none;
+}
+
+.circle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 162px;
+  height: 162px;
+  left: 6vw;
+  top: 500px;
+
+  border: 3px solid #FFFFFF;
+  filter: drop-shadow(0px -6px 23px rgba(255, 255, 255, 0.25));
+  border-radius: 360px;
+  background-color: #060606;;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+  width: 37px;
+  left: 58px;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('/fonts/gothampro_bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}

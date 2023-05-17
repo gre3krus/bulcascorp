@@ -1,0 +1,85 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  /* gap: 100px; */
+
+  position: relative;
+  max-width: 80vw;
+  height: 49.86px;
+  top: 10vh;
+
+}
+
+/* .left-gradient {
+  position: absolute;
+  width: 426px;
+  height: 331px;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  border-radius: 100px;
+  box-shadow: 10px 5px 5px white;
+
+  background: linear-gradient(325.73deg, #FFFFFF 86.93%, rgba(255, 255, 255, 0) 102.23%, #FFFFFF 102.23%);
+  filter: blur(599px);
+} */
+
+p {
+  font-family: 'TT Travels';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+  white-space: nowrap;
+  margin: 0;
+
+  color: #FFFFFF;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  /* gap: 70px; */
+
+  /* width: 422px;
+  height: 20px; */
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  /* gap: 70px; */
+
+  /* width: 404px;
+  height: 19px; */
+}
+
+#korz {
+  padding: 0px 7px 0px 0px;
+}
+
+.shop-market {
+  cursor: pointer;
+}
+
+.shop {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('/fonts/TTTravels-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}

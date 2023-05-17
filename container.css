@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #060606; */
+  background: url(img/fon.svg);
+  background-size: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0 auto;
+}
+
+.container {
+  display: block;
+  margin: 0px 180px 0px 180px;
+}
